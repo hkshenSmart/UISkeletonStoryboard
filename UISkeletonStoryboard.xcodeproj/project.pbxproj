@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E597E041E777510008D92B6 /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E597E031E777510008D92B6 /* CustomTabBarViewController.m */; };
 		8E8214221E76917400E42781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8214211E76917400E42781 /* main.m */; };
 		8E8214251E76917400E42781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8214241E76917400E42781 /* AppDelegate.m */; };
-		8E8214281E76917400E42781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8214271E76917400E42781 /* ViewController.m */; };
 		8E82142B1E76917400E42781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8214291E76917400E42781 /* Main.storyboard */; };
 		8E82142D1E76917400E42781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E82142C1E76917400E42781 /* Assets.xcassets */; };
 		8E8214301E76917400E42781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E82142E1E76917400E42781 /* LaunchScreen.storyboard */; };
 		8E82143B1E76917400E42781 /* UISkeletonStoryboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E82143A1E76917400E42781 /* UISkeletonStoryboardTests.m */; };
 		8E8214461E76917400E42781 /* UISkeletonStoryboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8214451E76917400E42781 /* UISkeletonStoryboardUITests.m */; };
+		8E82145B1E76928B00E42781 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E82145A1E76928B00E42781 /* HomePageViewController.m */; };
+		8E8214641E76934600E42781 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8214631E76934600E42781 /* FindViewController.m */; };
+		8E8214671E76935800E42781 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8214661E76935800E42781 /* MyViewController.m */; };
+		8E82146A1E76936B00E42781 /* PrizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8214691E76936B00E42781 /* PrizeViewController.m */; };
+		8E8214731E76987300E42781 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8214721E76987300E42781 /* PopViewController.m */; };
+		8E8214761E76988B00E42781 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8214751E76988B00E42781 /* LoginViewController.m */; };
+		8E8214791E7698A200E42781 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8214781E7698A200E42781 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E597E021E777510008D92B6 /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTabBarViewController.h; path = UI/CustomTabBar/Controllers/CustomTabBarViewController.h; sourceTree = "<group>"; };
+		8E597E031E777510008D92B6 /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTabBarViewController.m; path = UI/CustomTabBar/Controllers/CustomTabBarViewController.m; sourceTree = "<group>"; };
 		8E82141D1E76917400E42781 /* UISkeletonStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISkeletonStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8214211E76917400E42781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E8214231E76917400E42781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E8214241E76917400E42781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8E8214261E76917400E42781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8E8214271E76917400E42781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8E82142A1E76917400E42781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E82142C1E76917400E42781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E82142F1E76917400E42781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,20 @@
 		8E8214411E76917400E42781 /* UISkeletonStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISkeletonStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8214451E76917400E42781 /* UISkeletonStoryboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISkeletonStoryboardUITests.m; sourceTree = "<group>"; };
 		8E8214471E76917400E42781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8214591E76928B00E42781 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomePageViewController.h; path = UI/HomePage/Controllers/HomePageViewController.h; sourceTree = "<group>"; };
+		8E82145A1E76928B00E42781 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomePageViewController.m; path = UI/HomePage/Controllers/HomePageViewController.m; sourceTree = "<group>"; };
+		8E8214621E76934600E42781 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FindViewController.h; path = UI/Find/Controllers/FindViewController.h; sourceTree = "<group>"; };
+		8E8214631E76934600E42781 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FindViewController.m; path = UI/Find/Controllers/FindViewController.m; sourceTree = "<group>"; };
+		8E8214651E76935800E42781 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = UI/My/Controllers/MyViewController.h; sourceTree = "<group>"; };
+		8E8214661E76935800E42781 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = UI/My/Controllers/MyViewController.m; sourceTree = "<group>"; };
+		8E8214681E76936B00E42781 /* PrizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrizeViewController.h; path = UI/Prize/Controllers/PrizeViewController.h; sourceTree = "<group>"; };
+		8E8214691E76936B00E42781 /* PrizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PrizeViewController.m; path = UI/Prize/Controllers/PrizeViewController.m; sourceTree = "<group>"; };
+		8E8214711E76987300E42781 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PopViewController.h; path = UI/Pop/Controllers/PopViewController.h; sourceTree = "<group>"; };
+		8E8214721E76987300E42781 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PopViewController.m; path = UI/Pop/Controllers/PopViewController.m; sourceTree = "<group>"; };
+		8E8214741E76988B00E42781 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = UI/Login/Controllers/LoginViewController.h; sourceTree = "<group>"; };
+		8E8214751E76988B00E42781 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = UI/Login/Controllers/LoginViewController.m; sourceTree = "<group>"; };
+		8E8214771E7698A200E42781 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = UI/Detail/Controllers/DetailViewController.h; sourceTree = "<group>"; };
+		8E8214781E7698A200E42781 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = UI/Detail/Controllers/DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E597E001E777241008D92B6 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8E597E011E7772CD008D92B6 /* Controllers */,
+			);
+			name = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		8E597E011E7772CD008D92B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E597E021E777510008D92B6 /* CustomTabBarViewController.h */,
+				8E597E031E777510008D92B6 /* CustomTabBarViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		8E8214141E76917400E42781 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +139,9 @@
 		8E82141F1E76917400E42781 /* UISkeletonStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				8E8214541E7691E000E42781 /* UI */,
 				8E8214231E76917400E42781 /* AppDelegate.h */,
 				8E8214241E76917400E42781 /* AppDelegate.m */,
-				8E8214261E76917400E42781 /* ViewController.h */,
-				8E8214271E76917400E42781 /* ViewController.m */,
 				8E8214291E76917400E42781 /* Main.storyboard */,
 				8E82142C1E76917400E42781 /* Assets.xcassets */,
 				8E82142E1E76917400E42781 /* LaunchScreen.storyboard */,
@@ -138,6 +175,156 @@
 				8E8214471E76917400E42781 /* Info.plist */,
 			);
 			path = UISkeletonStoryboardUITests;
+			sourceTree = "<group>";
+		};
+		8E8214541E7691E000E42781 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8E597E001E777241008D92B6 /* CustomTabBar */,
+				8E82146D1E76983E00E42781 /* Detail */,
+				8E82146C1E76983400E42781 /* Login */,
+				8E82146B1E76982500E42781 /* Pop */,
+				8E82145E1E76931E00E42781 /* Prize */,
+				8E82145D1E76930E00E42781 /* My */,
+				8E82145C1E76930500E42781 /* Find */,
+				8E8214551E76925300E42781 /* HomePage */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		8E8214551E76925300E42781 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				8E8214581E76927300E42781 /* Models */,
+				8E8214571E76926A00E42781 /* Views */,
+				8E8214561E76925F00E42781 /* Controllers */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		8E8214561E76925F00E42781 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E8214591E76928B00E42781 /* HomePageViewController.h */,
+				8E82145A1E76928B00E42781 /* HomePageViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E8214571E76926A00E42781 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8E8214581E76927300E42781 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8E82145C1E76930500E42781 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				8E8214611E76933400E42781 /* Controllers */,
+			);
+			name = Find;
+			sourceTree = "<group>";
+		};
+		8E82145D1E76930E00E42781 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				8E82145F1E76932A00E42781 /* Controllers */,
+			);
+			name = My;
+			sourceTree = "<group>";
+		};
+		8E82145E1E76931E00E42781 /* Prize */ = {
+			isa = PBXGroup;
+			children = (
+				8E8214601E76932F00E42781 /* Controllers */,
+			);
+			name = Prize;
+			sourceTree = "<group>";
+		};
+		8E82145F1E76932A00E42781 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E8214651E76935800E42781 /* MyViewController.h */,
+				8E8214661E76935800E42781 /* MyViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E8214601E76932F00E42781 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E8214681E76936B00E42781 /* PrizeViewController.h */,
+				8E8214691E76936B00E42781 /* PrizeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E8214611E76933400E42781 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E8214621E76934600E42781 /* FindViewController.h */,
+				8E8214631E76934600E42781 /* FindViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E82146B1E76982500E42781 /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				8E8214701E76985E00E42781 /* Controllers */,
+			);
+			name = Pop;
+			sourceTree = "<group>";
+		};
+		8E82146C1E76983400E42781 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8E82146F1E76985500E42781 /* Controllers */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		8E82146D1E76983E00E42781 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8E82146E1E76985000E42781 /* Controllers */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		8E82146E1E76985000E42781 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E8214771E7698A200E42781 /* DetailViewController.h */,
+				8E8214781E7698A200E42781 /* DetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E82146F1E76985500E42781 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E8214741E76988B00E42781 /* LoginViewController.h */,
+				8E8214751E76988B00E42781 /* LoginViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8E8214701E76985E00E42781 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E8214711E76987300E42781 /* PopViewController.h */,
+				8E8214721E76987300E42781 /* PopViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +463,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8214281E76917400E42781 /* ViewController.m in Sources */,
+				8E8214761E76988B00E42781 /* LoginViewController.m in Sources */,
 				8E8214251E76917400E42781 /* AppDelegate.m in Sources */,
+				8E8214791E7698A200E42781 /* DetailViewController.m in Sources */,
 				8E8214221E76917400E42781 /* main.m in Sources */,
+				8E82145B1E76928B00E42781 /* HomePageViewController.m in Sources */,
+				8E597E041E777510008D92B6 /* CustomTabBarViewController.m in Sources */,
+				8E8214641E76934600E42781 /* FindViewController.m in Sources */,
+				8E8214731E76987300E42781 /* PopViewController.m in Sources */,
+				8E8214671E76935800E42781 /* MyViewController.m in Sources */,
+				8E82146A1E76936B00E42781 /* PrizeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +708,7 @@
 				8E82144C1E76917400E42781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E82144D1E76917400E42781 /* Build configuration list for PBXNativeTarget "UISkeletonStoryboardTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +717,7 @@
 				8E82144F1E76917400E42781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E8214501E76917400E42781 /* Build configuration list for PBXNativeTarget "UISkeletonStoryboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +726,7 @@
 				8E8214521E76917400E42781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

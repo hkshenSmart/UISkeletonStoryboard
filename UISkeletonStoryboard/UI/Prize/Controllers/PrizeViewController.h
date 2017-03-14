@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PrizeViewController.h
 //  UISkeletonStoryboard
 //
 //  Created by kun shen on 2017/3/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PrizeViewController : UIViewController
 
 @end
-
